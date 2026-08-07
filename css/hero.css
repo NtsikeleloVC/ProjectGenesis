@@ -142,7 +142,7 @@
   pointer-events: none;
 }
 
-.hero-grid {
+.hero-background-grid {
   position: absolute;
   inset: 0;
   background-image:
@@ -904,8 +904,13 @@ display: flex;
 
 .hero-copy{
 
-  padding:2% 10% 0 2%;
+  padding:2% 0% 0 10%;
 
+}
+
+.hero-panel{
+
+  padding: 0% 15% 0% 0;
 }
 
 
@@ -925,6 +930,10 @@ display: flex;
 
   position: relative;
 
+  width: 100%;
+
+  max-width: 650px;
+
   border-radius: 28px;
 
   overflow: hidden;
@@ -935,31 +944,25 @@ display: flex;
 
     0 30px 70px rgba(15, 23, 42, .15);
 
+    aspect-ratio: 16/10;
+
 }
+
+
 
 .video-frame video {
 
   width: 100%;
 
-  display: block;
+  height: 100%;
 
-  aspect-ratio: 16/10;
+  display: block;
 
   object-fit: cover;
 
 }
 
-.video-frame video {
 
-  width: 100%;
-
-  display: block;
-
-  aspect-ratio: 16/10;
-
-  object-fit: cover;
-
-}
 
 .live-badge {
 
