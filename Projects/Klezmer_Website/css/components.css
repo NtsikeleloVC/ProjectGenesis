@@ -74,6 +74,12 @@
   color: var(--text-primary);
 }
 
+.services-btn-secondary {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: #fff;
+}
+
 .section-heading h2,
 .split-layout h2{
   margin: 0 0 1rem;
@@ -90,9 +96,8 @@
 }
 
 .hero-text,
-.section-heading p,
-.info-card p,
-.hero-card p{
+.info-card,
+.hero-card {
   color: var(--text-secondary);
 }
 

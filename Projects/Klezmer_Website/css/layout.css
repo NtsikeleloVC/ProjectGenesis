@@ -997,8 +997,6 @@ CTA BANNER
     background: linear-gradient(135deg,
             #071B3B,
             #0F4AB8,
-            #2F80ED,
-            #4F46E5,
             #071B3B);
 
     box-shadow:
@@ -2542,7 +2540,7 @@ HEADER
 
     position: relative;
 
-    padding: 9rem 0;
+    padding: 100px 0;
 
     background: #ffffff;
 
